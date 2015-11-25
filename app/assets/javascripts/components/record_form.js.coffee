@@ -19,7 +19,7 @@
       , 'JSON'
     
     render: ->
-      React.DOM.form
+      React.DOM.form 
         className: 'form-inline'
         onSubmit: @handleSubmit
         React.DOM.div
